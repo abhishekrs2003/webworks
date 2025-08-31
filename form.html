@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-size: larger;
+        }
+    </style>
+</head>
+<body>
+    <fieldset style="background-color: antiquewhite;">
+        <legend style="font-size: 150%;">Enter the Details</legend>
+        <br>
+        <form action="C:\ABHISHEK\Webtech projects\Multimedia_example\c55518049347bdd39d2fec23f0c02a51.gif">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter Your Email" required><sup style="color: red;">*</sup>
+            <br><br>
+            <label for="password">Password</label>
+            <input type="password" placeholder="Enter your Password" required minlength="8"><sup style="color: red;">*</sup>
+            <br><br>
+            <label for="gender">Select Your Gender</label>
+            <br>
+            <input type="radio" name="gender" required>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" required>
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" required>
+            <label for="Others">Others</label>
+            <br><br>
+            <label for="skills">Select Skills</label>
+            <br>
+            <input type="checkbox" name="skills">
+            <label for="Java">Java</label>
+            <br>
+            <input type="checkbox" name="skills">
+            <label for="Python">Python</label>
+            <br>
+            <input type="checkbox" name="skills">
+            <label for="sql">SQL</label>
+            <br>
+            <input type="checkbox" name="skills">
+            <label for="no skills">No Skills</label>
+            <br><br>
+            <label for="">Enter your Age</label>
+            <input type="number" min="10" max="50" name="age">
+            <br><br>
+            <label for="">Phone number</label>
+            <input type="tel" minlength="10" maxlength="10" pattern="[6-9]{1}[1-9]{9}">
+            <br><br>
+            <label for="">Enter your Address</label>
+            <textarea name="address" id="" cols="20" rows="5"></textarea>
+            <br><br>
+            <label for="">Date of Birth:</label>
+            <input type="date" min="2000-01-01" max="2010-12-31">
+            <br><br>
+            <label for="">Select State</label>
+            <select name="state" id="">
+                <option value="select state" disabled selected>---Select your state---</option>
+                <option value="kerela">Kerala</option>
+                <option value="Goa">Goa</option>
+                <option value="karnataka">karnataka</option>
+            </select>
+            <center><button>Submit</button></center>
+
+        </form>
+    </fieldset>
+</body>
+</html>
